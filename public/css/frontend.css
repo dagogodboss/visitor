@@ -1,0 +1,160 @@
+
+
+.cardss {
+    margin-top:20px;
+    border: 0px;
+
+}
+
+.check-in {
+    margin:5%;
+}
+
+.hedding {
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.button {
+
+    border-radius: 40px;
+}
+.button img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.button span{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.cardboday{
+    margin: 10px;
+}
+
+.cardssboday{
+    /*width: 600px;*/
+    margin: auto;
+}
+
+.visitorphoto img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+}
+.retakephoto img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.arrows img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.arrows span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.strp{
+    margin: 10px;
+}
+
+.imgcard{
+    width: 330px;
+
+}
+
+.photocard p{
+    line-height: 3.05px;
+}
+.textname{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.cardimg img{
+    width: 125px;
+    height: 124px;
+    border-radius: 50%;
+    margin: 18px;
+}
+
+
+/*.getreturn{*/
+    /*width: 500px;*/
+    /*margin: auto;*/
+/*}*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*@media all and (max-width: 300px) {*/
+    /*.cardssboday {*/
+        /*display:block;*/
+    /*}*/
+/*}*/

@@ -1,0 +1,68 @@
+{"menus":
+  [
+    {"section":"Resources",
+      "items":[
+        {
+          "title":"Peoples",
+          "url":"#",
+          "main": true
+        },
+        {
+          "title":"Profile",
+          "url":"admin/profile",
+          "route":"admin.profile"
+        },
+        {
+          "title":"Users",
+          "url":"admin/users",
+          "route":"admin.users"
+        },
+        {
+          "title":"Roles",
+          "url":"admin/roles",
+          "route":"admin.roles"
+        },
+        {
+          "title":"Employees",
+          "url":"admin/employees",
+          "route":"admin.employees"
+        },
+        {
+          "title":"Visitors",
+          "url":"admin/visitors",
+          "route":"admin.visitors"
+        },
+        {
+          "title":"Register",
+          "url":"#",
+          "main": true
+        },
+        {
+          "title":"Pre-Register",
+          "url":"admin/pre_register",
+          "route":"admin.pre_register"
+        },
+        {
+          "title":"History",
+          "url":"#",
+          "main": true
+        },
+        {
+          "title":"Activity Logs",
+          "url":"admin/activitylogs",
+          "route":"admin.activitylogs"
+        },
+        {
+          "title":"Administration",
+          "url":"#",
+          "main": true
+        },
+        {
+          "title":"Settings",
+          "url":"admin/settings",
+          "route":"admin.settings"
+        }
+      ]
+    }
+  ]
+}
